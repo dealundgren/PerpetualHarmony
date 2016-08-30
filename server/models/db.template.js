@@ -1,6 +1,6 @@
 var Sequelize = require('sequelize');
 var db = new Sequelize('database', 'username', 'password');
-var bcrypt = require('bcrypt');
+// var bcrypt = require('bcrypt');
 
 db.authenticate()
   .then(function(err) {
